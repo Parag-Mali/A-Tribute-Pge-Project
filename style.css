@@ -1,0 +1,200 @@
+body {
+    background-image: url(https://th.bing.com/th/id/R.97d9284df35c357e012830d98a89c5ca?rik=%2bfUsotOHwT8yvA&riu=http%3a%2f%2fimages.designtrends.com%2fwp-content%2fuploads%2f2016%2f02%2f04053518%2fMilitary-Camouflage-Vector-Pattern.jpg&ehk=6j932pF7o53VKB2yVr881f37mEUQBZblWRIv2ZA%2fiFQ%3d&risl=&pid=ImgRaw&r=0);
+    margin: 20%;
+    margin-top: 2%;
+    background-size: 100% 100%;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(FONT/armalite.ttf);
+}
+
+#head-title {
+    background-color: rgba(47, 64, 28, 255);
+    box-shadow: 30px 30px 30px rgba(3, 32, 16, 0.884);
+    font-family: myFirstFont;
+    src: url(FONT/armalite.ttf);
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    font-size: 50px;
+    letter-spacing: 6px;
+}
+
+img {
+    background-color: rgba(47, 64, 28, 255);
+    box-shadow: 30px 30px 30px rgba(3, 32, 16, 0.884);
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+}
+
+#briefintro {
+    background-color: rgba(47, 64, 28, 255);
+    box-shadow: 30px 30px 30px rgba(3, 32, 16, 0.884);
+    font-size: 24px;
+    font-family: myFirstFont;
+    src: url(FONT/armalite.ttf);
+    text-align: justify;
+    color: white;
+    text-shadow: 8px 8px 14px black;
+    letter-spacing: 4px;
+    margin-top: 2rem;
+}
+
+div#fullstory {
+    background-color: rgba(47, 64, 28, 255);
+    box-shadow: 30px 30px 30px rgba(3, 32, 16, 0.884);
+    color: white;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+
+h1.title-bipinrawat {
+    font-family: myFirstFont;
+    src: url(FONT/armalite.ttf);
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    letter-spacing: 4px;
+}
+
+p {
+    font-family: myFirstFont;
+    src: url(FONT/armalite.ttf);
+    font-size: large;
+    color: white;
+    text-align: justify;
+    letter-spacing: 4px;
+}
+
+#audio {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.video-title {
+    background-color: rgba(47, 64, 28, 255);
+    box-shadow: 30px 30px 30px rgba(3, 32, 16, 0.884);
+    font-family: myFirstFont;
+    src: url(FONT/armalite.ttf);
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    font-size: 32px;
+    letter-spacing: 6px;`
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+video {
+    width: 372px;
+    height: 212px;
+    padding: 1px;
+    background-color: rgba(47, 64, 28, 255);
+    box-shadow: 30px 30px 30px rgb(3 32 16 / 88%);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 2rem;
+}
+
+.honours {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 3rem;
+    width: 300px;
+    height: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.ranks {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 3rem;
+    width: 300px;
+    height: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.select {
+    position: relative;
+    display: grid;
+    margin-bottom: 15px;
+    width: auto;
+}
+
+.select select {
+    font-family: myFirstFont;
+    src: url(FONT/armalite.ttf);
+    font-size: larger;
+    display: grid;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 15px;
+    outline: 0;
+    border: 0px solid #000000;
+    border-radius: 30px;
+    background: rgba(3, 32, 16, 0.884);
+    color: rgba(83, 111, 60, 255);
+    appearance: none;
+}
+
+.select select:hover,
+.select select:focus {
+    color: rgba(3, 32, 16, 0.884);
+    background: rgba(83, 111, 60, 255);
+}
+
+.select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 41px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+
+.select select:hover~.select_arrow,
+.select select:focus~.select_arrow {
+    border-top-color: #000000;
+}
+
+#footer {
+    background-color: rgba(47, 64, 28, 255);
+    box-shadow: 30px 30px 30px rgba(3, 32, 16, 0.884);
+    font-family: myFirstFont;
+    src: url(FONT/armalite.ttf);
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    font-size: 24px;
+    letter-spacing: 6px;
+    word-spacing: 8px;
+    position: bottom;
+    margin-top: 4%;
+    margin-bottom: -32%;
+}
